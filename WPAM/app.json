@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "MyReactNative3",
+    "slug": "myreactnative3",
+    "version": "1.0.0",
+    "sdkVersion": "40.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "com.elkard.tripmanagerapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.elkard.tripmanagerapp"
+    }
+  }
+}
