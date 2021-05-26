@@ -20,7 +20,7 @@ export const NameForm = (props) => {
                 </Text>
 
             <Input
-                onlyEnglish
+
                 id="tripname"
                 label="Trip Name"
                 keyboardType="default"
@@ -36,7 +36,7 @@ export const NameForm = (props) => {
             />
 
             <Input
-                onlyEnglish
+
                 id="nickname"
                 label="Your Nickname"
                 keyboardType="default"

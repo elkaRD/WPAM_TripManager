@@ -100,7 +100,7 @@ export const HomeScreen = () => {
         return (
             <View style={styles.container}>
 
-                <TripList onlyMyTrips={true} onSelectTrip={onSelectTrip} />
+                <TripList onlyMyTrips={true} onSelectTrip={onSelectTrip} navigation={navigation} />
 
                 <ActionButtonMenu />
             </View>
@@ -111,7 +111,7 @@ export const HomeScreen = () => {
         return (
             <View style={styles.container}>
 
-                <TripList onlyMyTrips={false} onSelectTrip={onSelectTrip} />
+                <TripList onlyMyTrips={false} onSelectTrip={onSelectTrip} navigation={navigation} />
 
                 <ActionButtonMenu />
             </View>

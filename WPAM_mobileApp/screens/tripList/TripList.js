@@ -23,6 +23,16 @@ export const TripList = (props) => {
         });
     }
 
+    useEffect(() => {
+        const unsubscribe = props.navigation.addListener('focus', () => {
+            console.log("Refresh trip list when parent screen got focus");
+            downloadTrips();
+        });
+
+        return unsubscribe;
+    }, [props.navigation]);
+
+
     const pressHandlerRemove = (tripId) => {
         removeItemFromTripList(tripId);
 

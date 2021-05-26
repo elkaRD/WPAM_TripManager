@@ -62,7 +62,7 @@ export const ModalJoinTripScreen = ({ navigation }) => {
             {/* <Text style={{ fontSize: 30 }}>This is a modal!</Text> */}
 
             <Input
-                onlyEnglish
+
                 id="tripCode"
                 label="Trip code"
                 keyboardType="default"
@@ -76,7 +76,7 @@ export const ModalJoinTripScreen = ({ navigation }) => {
             />
 
             <Input
-                onlyEnglish
+
                 id="nickname"
                 label="Your Nickname"
                 keyboardType="default"
